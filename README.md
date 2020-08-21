@@ -22,3 +22,11 @@ Benford’s law, a.k.a. Newcomb–Benford law, the law of anomalous numbers, or 
     1: We are trying to apply Benford's law to images to see if they have been manipulated with or not.
     2: Later we would apply the same law on multiple data-sets
     (This is a purely a `for curiousity` project :) )
+
+## First test - Check images for manipulation
+Here's the result of the first test
+Manipulated image graph - example 1 (img_manipulated_ex1.jpg)
+![Manipulated image graph](https://raw.githubusercontent.com/rohitnairtech/benfords_law/master/ex1.png)
+
+Unmanipulated image graph - example 2 (img_original_ex2.jpg)
+![Unmanipulated image graph](https://raw.githubusercontent.com/rohitnairtech/benfords_law/master/ex2.png)
