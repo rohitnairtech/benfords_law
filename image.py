@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-img = Image.open('benford.jpg').convert("L")
+img = Image.open('2020-08-21-153016.jpg').convert("L")
 arr = np.array(img)
 
 print(arr)
@@ -34,5 +34,5 @@ plt.xlabel('x - axis')
 plt.ylabel('y - axis')
 
 plt.title('Benfords graph!')
-
+plt.savefig('ex2.png')
 plt.show()
