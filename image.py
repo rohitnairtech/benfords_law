@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-img = Image.open('2020-08-21-153016.jpg').convert("L")
+img = Image.open('img_manipulated_ex1.jpg').convert("L")
 arr = np.array(img)
 
 print(arr)
